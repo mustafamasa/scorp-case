@@ -30,5 +30,5 @@ yarn-error.log*
 .env.production.local
 
 # lock files
-package.json
+package-lock.json
 yarn.lock
