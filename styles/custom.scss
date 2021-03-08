@@ -1,0 +1,13 @@
+.field:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  min-height: calc(100vh - 152px);
+  margin: 0 auto -50px;
+}
+
+footer {
+  background: white;
+  padding: 20px;
+}

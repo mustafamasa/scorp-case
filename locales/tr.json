@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "contact": "İletişim",
+    "login": "Giriş",
+    "userInfo": {
+      "logout": "Çıkış Yap"
+    }
+  },
+  "footer": "Tüm hakları saklıdır © 2020",
+  "loginForm": {
+    "name": {
+      "label": "Ad",
+      "errorMessage": {
+        "required": "Ad alanı gereklidir."
+      }
+    },
+    "email": {
+      "label": "Eposta",
+      "errorMessage": {
+        "required": "Email alanı gereklidir.",
+        "invalid": "Geçerli bir eposta adresi giriniz."
+      }
+    },
+    "password": {
+      "label": "Parola",
+      "errorMessage": {
+        "required": "Parola alanı gereklidir.",
+        "tooShort": "Parolanız en az 6 karakterden oluşmalıdır."
+      }
+    },
+    "title": "Üye Girişi",
+    "okButton": "Giriş",
+    "cancelButton": "İptal"
+  },
+  "main": {
+    "title": "Lorem Ipsum Nedir?",
+    "paragraph": "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur."
+  },
+  "contact": {
+    "title": "İletişim",
+    "form": {
+      "name": {
+        "label": "Ad",
+        "errorMessage": {
+          "required": "Ad alanı gereklidir."
+        }
+      },
+      "email": {
+        "label": "Email",
+        "errorMessage": {
+          "required": "Email alanı gereklidir.",
+          "invalid": "Geçerli bir eposta adresi giriniz."
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "errorMessage": {
+          "required": "Telefon Numarası alanı gereklidir.",
+          "onlyNumber": "Yalnızca sayı girebilirsiniz."
+        }
+      },
+      "countrySelect": {
+        "label": "Ülke Seçimi",
+        "errorMessage": {
+          "required": "Ülke seçmelisiniz."
+        }
+      },
+      "text": {
+        "label": "Mesaj",
+        "errorMessage": {
+          "required": "Mesaj alanı gereklidir."
+        }
+      },
+      "submit": "Gönder"
+    },
+    "countries": {
+      "en-US": "Amerika Birleşik Devletleri",
+      "en-GB": "Birleşik Krallık",
+      "de-DE": "Almanya",
+      "tr-TR": "Türkiye",
+      "sw-KE": "Kenya",
+      "pt-BR": "Brezilya",
+      "en-ZW": "Zimbabve"
+    }
+  }
+}

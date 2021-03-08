@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "login": "Sign In",
+    "userInfo": {
+      "logout": "Logout"
+    }
+  },
+  "footer": "All rights reserved © 2020",
+  "loginForm": {
+    "name": {
+      "label": "Name",
+      "errorMessage": {
+        "required": "Name is required."
+      }
+    },
+    "email": {
+      "label": "Email",
+      "errorMessage": {
+        "required": "Email is required.",
+        "invalid": "Please enter a valid e-mail address."
+      }
+    },
+    "password": {
+      "label": "Password",
+      "errorMessage": {
+        "required": "Password is required.",
+        "tooShort": "Password must be at least 6 characters."
+      }
+    },
+    "title": "Login",
+    "okButton": "Sign In",
+    "cancelButton": "Cancel"
+  },
+  "main": {
+    "title": "What is Lorem Ipsum?",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": {
+        "label": "Name",
+        "errorMessage": {
+          "required": "Name is required."
+        }
+      },
+      "email": {
+        "label": "Email",
+        "errorMessage": {
+          "required": "Email is required.",
+          "invalid": "Please enter a valid e-mail address."
+        }
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "errorMessage": {
+          "required": "Phone Number is required.",
+          "onlyNumber": "You can only enter numbers."
+        }
+      },
+      "countrySelect": {
+        "label": "Country Select",
+        "errorMessage": {
+          "required": "Country is required."
+        }
+      },
+      "text": {
+        "label": "Text",
+        "errorMessage": {
+          "required": "Text is required."
+        }
+      },
+      "submit": "Send"
+    },
+    "countries": {
+      "en-US": "United States of America",
+      "en-GB": "United Kingdom",
+      "de-DE": "Germany",
+      "tr-TR": "Turkey",
+      "sw-KE": "Kenya",
+      "pt-BR": "Brazil",
+      "en-ZW": "Zimbabwe"
+    }
+  }
+}
