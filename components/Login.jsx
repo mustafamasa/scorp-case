@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { connect } from "react-redux";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
@@ -25,13 +25,15 @@ const Login = ({ t, login }) => {
 
   const onSubmit = (values, { resetForm }) => {
     setLoading(true);
-    login(values)
-      .then(() => {
-        toogleModal();
-        resetForm();
-      })
-      .finally(() => setLoading(false));
+    login(values).then(() => {
+      toogleModal();
+      resetForm();
+    });
   };
+
+  useEffect(() => {
+    return () => setLoading(false);
+  }, []);
 
   return (
     <>
@@ -92,12 +94,17 @@ const Login = ({ t, login }) => {
 
           <footer className="modal-card-foot">
             <button
+              type="submit"
               className={`button is-primary ${loading && "is-loading"}`}
               onClick={() => submitButton.current.click()}
             >
               {t("loginForm.okButton")}
             </button>
-            <button className="button" onClick={() => toogleModal()}>
+            <button
+              className="button "
+              onClick={() => toogleModal()}
+              disabled={loading}
+            >
               {t("loginForm.cancelButton")}
             </button>
           </footer>
